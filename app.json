@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Nghe nhạc",
+    "slug": "music-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.yourname.musicapp"
+    },
+    "ios": {
+      "bundleIdentifier": "com.yourname.musicapp",
+      "infoPlist": { "UIBackgroundModes": ["audio"] }
+    },
+    "plugins": ["expo-audio"]
+  }
+}
